@@ -8,7 +8,7 @@ gulp.task('server', function () {
 
     browserSync({
         server: {
-            baseDir: "src"
+            baseDir: "./"
         }
     });
 });
